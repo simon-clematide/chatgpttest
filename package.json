@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-json-schema-validator": "^4.8.3",
+    "eslint-plugin-yml": "^1.12.2",
+    "husky": "^9.0.11"
+  },
+  "scripts": {
+    "lint": "eslint . --ext js,json,yml --cache",
+    "lint:all": "eslint . --ext js,json,yml",
+    "lint:fix": "eslint . --ext js,json,yml --fix --cache",
+    "lint:fix-all": "eslint . --ext js,json,yml --fix"
+  }
+}
